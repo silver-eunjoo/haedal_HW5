@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>앨범 표지</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    html,body{
+    margin:0;
+    padding:0;
+    }
+    ul{
+    list-style: none;
+    }
+    a{
+     text-decoration: none;
+     color:blue;
+     font-size:34px;
+     }
+     li{
+     width:200px;
+     background-color: #DC143C;
+     padding: 25px;
+     }
+     div{
+        border:22px red;
+     }
+     @media(max-width:800px){
+        div{
+            display:none;
+        }
+     }
+     </style>
+</head>
+<body>
+    <h3> 좋아하는 노래 앨범 표지를 소개할게요! 장르를 골라주세요! </h3>
+    <hr>
+    <div id="grid">
+    <ul>
+        <li>
+            <a href="Kpop.html">K-pop</a>
+        </li>
+        <br>
+        <li>
+            <a href="pop.html">POP</a>
+        </li>
+        <br>
+        <li>
+            <a href="hiphop.html">HIPHOP</a>
+        </li>
+    </ul>
+</body>
+</html>
